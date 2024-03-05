@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+}
+
+.h3,  h3 {
+    font-size: 30px;
+    border: 1px dotted red;
+    box-shadow: 1px 1px 50px rgb(247, 125, 11);
+}
+
+
+.main-container {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px rgb(66, 58, 51);
+    height: 370px;
+    width: 500px
+  
+}
+
+
+.output-container {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 105px;
+    background-color: #080001;
+    margin-bottom: 10px;
+    
+}
+
+.output {
+    font-family: 'Big Shoulders Stencil Text',sans-serif ;
+    font-size: 100px;
+    color: #f94f6d;
+    
+    
+    
+
+
+    
+}
+
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    border: 1px solid #e4e8f2;
+}
+
+button:active {
+    color: rgb(193, 201, 209);
+}
+
+.leader {
+    outline: 2px solid red;
+}
+
+
+.timer-display {
+    margin-top: -90px;
+    font-size: 31px;
+    color: whitesmoke;
+    
+
+}
+
+.start-btn,
+.reset-btn {
+    margin-top: 10px;
+    color: #ffffff;
+    margin-left: 0px;
+    font-size: 19px;
+    background-color:#1B244A;
+    
+    
+}
